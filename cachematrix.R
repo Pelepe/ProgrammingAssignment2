@@ -51,8 +51,9 @@ cacheSolve <- function(x, ...) {
     return(m)
   }
 
-## If the inverse matrix has not been computed before, cacheSolve computes it, 
-## sets it using setinverse() and finally returns it
+## If the inverse matrix has not been computed before 
+## cacheSolve computes it, sets it using setinverse() 
+## and finally returns it
   
   data <- x$get()
     
